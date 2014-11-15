@@ -1,11 +1,11 @@
 # Ludus for Amber
 
-This repository is a move to Amber Smalltalk version 0.12.4 from the [original work of Bernat Romagosa](https://github.com/bromagosa/amber/tree/ludus) (version 0.9.1). The name stands for *game* or *leisure* in Latin.
+This repository is a move to Amber Smalltalk version 0.13.0 from the [original work of Bernat Romagosa](https://github.com/bromagosa/amber/tree/ludus) (version 0.9.1). The name stands for *game* or *leisure* in Latin.
 
 
 ## Status
 
-- Warehouse Sokoban is working
+- All games are working
 
 
 ## Prerequisites
@@ -39,7 +39,7 @@ amber serve
 
 Point your browser to:
 
-    http://localhost:4000/games.html
+    http://localhost:4000
 
 Enjoy!
 
