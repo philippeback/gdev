@@ -1,0 +1,42 @@
+{
+  "name": "gdev",
+  "title": "GDev",
+  "description": "A little app for Google DevFest",
+  "version": "0.1.0",
+  "homepage": "https://github.com/philippeback/gdev",
+  "author": {
+    "name": "philippeback",
+    "email": "phil@highoctane.be"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/philippeback/gdev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/philippeback/gdev/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/philippeback/gdev/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "amber-dev": "^0.2.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-execute": "^0.2.2",
+    "requirejs": "^2.1.15"
+  },
+  "keywords": [
+    "Amber",
+    "Smalltalk"
+  ]
+}

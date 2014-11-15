@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>GDev</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="philippeback" />
+    <script type='text/javascript' src='the.js'></script>
+  </head>
+
+  <body>
+  <p>Hi, philippeback! Welcome to Amber project: "GDev".</p>
+  <p>This is the place for your application's HTML. After getting familiar with Amber,
+      just remove this welcome contents from index.html and replace it with your own.</p>
+  <button id="amber-with">Hello from TagBrush >> with:</button>
+  <button id="jquery-append">Hello from jQuery append</button>
+  <ol id="output-list"></ol>
+  <script type='text/javascript'>
+      require(['app'], function (amber) {
+          amber.initialize({
+            //used for all new packages in IDE
+            'transport.defaultAmdNamespace': "amber-gdev"
+          });
+          require(["amber-ide-starter-dialog"], function (dlg) { dlg.start(); });
+          amber.globals.Gdev._start();
+      });
+  </script>
+
+ <!--
+    <button onclick="require('amber/helpers').globals.Browser._open()">legacy IDE</button>
+   <button onclick="require('amber/helpers').popupHelios()">Helios IDE</button>
+-->
+    <button onclick="require('amber/helpers').globals.SmallCave._start()">SmallCave</button>
+    <button onclick="require('amber/helpers').globals.Pong._start()">Pong</button>
+    <button onclick="require('amber/helpers').globals.SimplePacman._start()">Simple Pacman</button>
+    <button onclick="require('amber/helpers').globals.Sokoban._start()">Sokoban</button>
+    <button onclick="require('amber/helpers').globals.SokobanLevelCreator._open()">Sokoban editor</button>
+    <button onclick="require('amber/helpers').globals.AmberApplication._run()">Amber Application</button>
+    
+    <div id="app">
+	<div id="game">
+	    Game will come here...
+	</div>
+	<div id="main">
+	</div>
+	<div id="log">
+	</div>
+    </div>
+
+  </body>
+
+</html>

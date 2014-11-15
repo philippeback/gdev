@@ -1,0 +1,34 @@
+{
+    "name": "gdev",
+    "description": "A little app for Google DevFest",
+    "version": "0.1.0",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "/test_runner.js",
+        "test",
+        "tests"
+    ],
+    "authors": [
+        { "name": "Bernat Romagosa", "email": "tibabenfortlapalanca@gmail.com" },
+	{ "name": "Philippe Back", "email": "phil@highoctane.be" },
+	{ "name": "Hannes Hirzel", "email": "hannes.hirzel@gmail.com" },
+        { "name": "philippeback", "email": "phil@highoctane.be" }
+    ],
+    "homepage": "https://github.com/philippeback/gdev",
+    "keywords": [
+        "Amber", "Smalltalk", "Example", "Games"
+    ],
+    "license": [
+        "MIT"
+    ],
+    "private": false,
+    "dependencies": {
+        "amber": "^0.13.2"
+    },
+    "devDependencies": {
+        "amber-ide-starter-dialog": "^0.1.0",
+        "helios": "^0.3.0"
+    }
+}
